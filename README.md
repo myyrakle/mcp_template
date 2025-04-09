@@ -8,14 +8,16 @@
 
 - uv (Python Package Manager)
 
-## Server
+## Test Server
+
+just run
 
 ```bash
 uv run server.py
 ```
 
-## Client
+debug
 
 ```bash
-uv run client.py
+npx @modelcontextprotocol/inspector uv run server.py
 ```
